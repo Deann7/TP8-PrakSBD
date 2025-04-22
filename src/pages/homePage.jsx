@@ -55,7 +55,7 @@ const HomePage = () => {
           className='h-64 w-auto'
         />
       </div>
-      <div className='flex flex-row items-center justify-center'>
+      <div className='flex flex-row max-lg:flex-col items-center justify-center'>
         <h1 className='title-network text-black font-black text-6xl mr-2'>
           NETWORK
         </h1>

@@ -6,6 +6,7 @@ import DMJLogo from '/DMJLogo.svg';
 import OSLogo from '/OSLogo.svg';
 import SBDLogo from '/SBDLogo.svg';
 import HomePage from './pages/homePage';
+import Footer from './components/footer';
 
 function App() {
   // Buat ref untuk masing-masing Big Card
@@ -82,6 +83,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
